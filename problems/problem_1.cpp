@@ -19,5 +19,5 @@ cout << "Enter the water consumption in cubic metres : ";
         cost += 30 * 0.4 + 20 * 0.12 + 10 * 1.4 + (consumed_water - 60) * 1.5;
     }
 cout << "The total cost is: $" << cost <<endl;
-    return 0;
+    return cost;
 }
