@@ -29,7 +29,7 @@ std::string problemSolution4(const std::string &macAddress) {
                 result = "Multicast";
                 break;
         }
-    }
+    
                 
     
     return result;
